@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    flex-wrap: nowrap;
+    font-family: "Lato";
+}
+
+#sidePanel {
+    width: 40%;
+    height: 100vh;
+    background-image: url(/aaron-burdenchairs.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+} 
+
+#panelTitle{
+    margin-top: 15%;
+    width: auto;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+#signUpContainer {
+    background-color: rgb(245, 245, 245);
+    width: 70%
+}
+#formTitle {
+    width: 100%;
+    margin-left: 40px;
+}
+.signup {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15%;
+}
+.signup, h3 {
+    margin-top: 5%;
+}
+
+#formContainer {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 50px 150px;
+    background-color: white;
+    box-shadow: 0 4px 9px -2px lightgray;
+    padding-bottom: 50px;
+    margin-top: 15.2%;
+}
+
+.formComponent{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 40px;
+    
+}
+
+.formComponent, input{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #E5E7EB;
+}
+
+button {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #5b9eb9;
+    border-radius: 7px;
+    border-style:none;
+    color: white;
+    font-family: "lato";
+    font-weight: 900;
+}
+
+:focus {
+    border-color: blue;
+    box-shadow: 2px 2px 5px black;
+}
